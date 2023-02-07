@@ -1,0 +1,13 @@
+---- Latihan 2: Apa Itu Webpack? | Belajar Webpack ----
+
+1. WebPack, Apa itu ?
+   - WebPack adalah salah satu dari software tooling yang bisa kita gunakan, yang disebut dengan
+     - Module Bundler
+       - Adalah sebuah tool yang tugasnya mengambil code-code javascript yang kita gunakan beserta dengan
+         dependency-nya lalu membundle atau menggabungkannya menjadi sebuah file, nah file inilah yang
+         nantinya akan kita gunakan atau kita include kan didalam website kita, biasanya file ini file 
+         static yang bentuknya javascript
+
+1. Cara Installasi:
+   - npm init -y
+   - npm install webpack webpack-cli --save-dev

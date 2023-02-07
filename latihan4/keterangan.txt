@@ -1,0 +1,25 @@
+---- Latihan 4: Loaders | Belajar Webpack ----
+
+1. Webpack Loaders:
+   - Adalah sebuah fitur pada webpack untuk melakukan bundle pada sebuah sumber daya static selain javascript
+
+2. Cara Installasi:
+   - npm install css-loader --save-dev
+   - npm install style-loader --save-dev
+     - Untuk menginstall library css loader bawaan webpack
+     - Webpack selalu membaca urutan penamaan use loader pada rules dari kanan ke kiri
+       - css-loader
+         - Untuk membundle file styling
+       - style-loader
+         - Untuk menerapkan styling
+   - npm install -D babel-loader @babel/core @babel/preset-env
+     - Untuk menginstall bable loader
+   - npm install sass-loader sass --save-dev
+     - Untuk menginstall sass dengan loader
+   - npm install bootstrap
+     - Untuk menginstall bootstrap
+
+3. Catatan:
+   - Bable Loader:
+     - Untuk membuat file bundle yang sudah dibuat support dengan browser versi lama, sehingga ketika
+       dibuild maka kode akan berubah menjadi versi lama (ES5)
