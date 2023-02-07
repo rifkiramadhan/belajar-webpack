@@ -1,0 +1,38 @@
+---- Latihan 1: Javascript Module System | Belajar Webpack ----
+
+1. Javascript Module System
+   - Reusability
+     - Modul bisa digunakan kembali oleh bagian program lain, atau bisa menjadi package untuk app lain
+   - Isolation
+     - Satu modul mengerjakan hanya hal yang spesifik saja
+   - Organization
+     - Kemudahan pengelolaan aplikasi secara keseluruhan
+
+2. Sejarah Module System Pada Javascript
+   - Sejak tahun 1996 - 2000 itu tidak ada yang namanya module system, inilah yang diterapkan pada 
+     perusahaan Netscape dan Internet Explorer yang versinya jadul
+   - Sejak tahun 2000 - 2010 para Programmer itu menemukan sebuah teknik yang namanya IIFE (Immediately Invoked Function Expression).
+     Jadi dia membuat function yang tanpa nama yang automatis dijalankan ketika dibuat, teknik ini yang pertama kali mempopulerkan 
+     adalah Yahoo dan dipakai juga oleh banyak library, framework dan juga package, salah satunya adalah JQuery yang menggunakan teknik ini,
+     bahkan sebelum IIFE ini para Programmer itu menggunakan teknik Wrapper
+   - Sejak tahun 2010 - 2015 itu karena kemunculan Javascript disisi server oleh NodeJS, maka ditemukanlah cara yang disepakati namanya adalah 
+     CommonJS, ini dipopulerkan oleh NodeJS sebagai sistem module pada Javascript
+   - Sejak tahun 2015 - Saat ini sudah ada teknik resmi yang sudah ada didalam spesifikasi Javascript yang disebuat dengan ES6 Modules, 
+     jadi module nya sudah bisa kita terapkan tanpa bantuan dari script pihak ketiga ataupun aplikasi lain, jadi ini sudah diterapkan oleh 
+     Javascript nya secara langsung
+
+3. Sebelum Ada Module
+   - Harus membuat fungsi pembungkus / wrapper function
+   - Agar memiliki scope, sehingga tidak ada global variable
+   - Tetap muncul function wrapper yang bisa diakses secara global
+   - Kurang reusable
+   - Masalah pengelolaan dependency
+
+4. Cara Installasi
+   - npm init -y
+     - Supaya dibuatkan package.json dengan isi defaultnya
+   - npm install webpack webpack-cli --save-dev
+     - Untuk menginstall webpack ke dalam dependencies
+
+5. Yang Harus Dilakukan Untuk Setting Default Webpack
+   - Hapus script main pada file package.json, jika tidak menggunakan NodeJS dan tidak memiliki file main.js
