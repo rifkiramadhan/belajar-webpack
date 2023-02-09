@@ -1,0 +1,15 @@
+---- Latihan 5: Cache, Plugins & Tools | Belajar Webpack ----
+
+1. Catatan:
+   - Buat file template.html untuk membuat template yang ingin di generate secara automatis
+     oleh webpack
+   - Untuk menggenerate file html tambahkan script dari dokumentasi html webpack plugin 
+     kedalam file webpack.config
+   - Delete file index.html setelah file dan script html pada folder dist berhasil di generate 
+     untuk membuat kode yang kita buat semakin lebih kecil
+
+2. Cara Installasi:
+   - npm install --save-dev html-webpack-plugin:
+     - Untuk menggenerate halam html dengan mudah menggunakan webpack
+   - npm install webpack-merge --save-dev:
+     - Untuk menggabungkan script konfigurasi webpack

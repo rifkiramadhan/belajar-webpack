@@ -1,11 +1,11 @@
 ---- Latihan 3: Webpack Custom Configuration | Belajar Webpack ----
 
-1. WebPack Custom Configuration
+1. WebPack Custom Configuration:
 
 2. Catatan:
-   - Ketika ingin membuat folder build secara custom maka tambahkan script berikut pada file package.json
+   - Ketika ingin membuat folder build secara custom maka tambahkan script berikut pada file package.json:
      - "build": "webpack -o ./output --output-filename bundle.js"
-   - Ketika ingin membuat file custom webpack tambahkan script berikut pada file package.json
+   - Ketika ingin membuat file custom webpack tambahkan script berikut pada file package.json:
      - "build": "webpack --config mywebpack.config.js"
-   - Ketika ingin membuild secara automatis, maka tambahkan script berikut pada file package.json
+   - Ketika ingin membuild secara automatis, maka tambahkan script berikut pada file package.json:
      - "watch": "webpack --watch"

@@ -5,18 +5,18 @@
 
 2. Cara Installasi:
    - npm install css-loader --save-dev
-   - npm install style-loader --save-dev
+   - npm install style-loader --save-dev:
      - Untuk menginstall library css loader bawaan webpack
-     - Webpack selalu membaca urutan penamaan use loader pada rules dari kanan ke kiri
-       - css-loader
+     - Webpack selalu membaca urutan penamaan use loader pada rules dari kanan ke kiri:
+       - css-loader:
          - Untuk membundle file styling
-       - style-loader
+       - style-loader:
          - Untuk menerapkan styling
-   - npm install -D babel-loader @babel/core @babel/preset-env
+   - npm install -D babel-loader @babel/core @babel/preset-env:
      - Untuk menginstall bable loader
-   - npm install sass-loader sass --save-dev
+   - npm install sass-loader sass --save-dev:
      - Untuk menginstall sass dengan loader
-   - npm install bootstrap
+   - npm install bootstrap:
      - Untuk menginstall bootstrap
 
 3. Catatan:

@@ -1,0 +1,18 @@
+---- Latihan 6: Assets Management | Belajar Webpack ----
+
+1. Catatan:
+   - MiniCSSExtractPlugin:
+     - Adalah third party package jadi bukan package official bawaan dari webpack, tapi ada developer 
+       lain yang membuat, tujuannya adalah untuk mengekstrak CSS ke file yang terpisah supaya filenya
+       tidak masuk ke dalam javascript
+   - Untuk melihat dokumentasi konfigurasi pada webpack server silahkan cari dokumentasi yang bernama 
+     Dev Server, kemudian tambahkan script konfigurasi pada file webpack.dev.js
+
+2. Cara Installasi:
+   - npm install --save-dev mini-css-extract-plugin
+   - npm install --save-dev webpack-dev-server:
+     - Untuk menjalankan server bawaan dari webpack
+   - npm install --save-dev html-loader:
+     - Untuk membuild attribute html yang telah ditambahkan dengan webpack
+
+    
