@@ -1,0 +1,16 @@
+---- Latihan 7: Code Splitting | Belajar Webpack ----
+
+1. Catatan:
+   - Membuat file vendor.js, untuk menyimpan semua library atau module pendukung
+   - Setiap kita melakukan perubahan pada file config maka untuk menjalankan preview nya
+     harus di build terlebih dahulu
+   - Setiap kita melakukan perubahan pada javascript atau css maka npm run serve tidak perlu dimatikan
+   -  Loadash:
+      -  Adalah utility javascript library, sehingga kita bisa menggunakan banyak sekali fungsi di dalam
+         library ini
+
+2. Cara Installasi:
+   - npm install vanilla-tilt
+     - Untuk menginstall tilt js versi vanilla javascript untuk membuat animasi pada gambar
+   - npm install --save loadash
+     - Untuk menginstall library loadash

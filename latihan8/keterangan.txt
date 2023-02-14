@@ -1,0 +1,19 @@
+---- Latihan 8: Minimizer | Belajar Webpack ----
+
+1. Catatan:
+   - Minimizer
+     - Adalah plugin-plugin yang digunakan untuk membuat bundle size file kita semakin kecil lagi,
+       ini bermanfaat saat kita sudah masuk ke tahap produksi saat semua pembuatan aplikasinya telah selesai,
+       kita siap masuk ke tahap production kita akan bikin agar file-file kita lebih optimize lagi
+   - Purgecss
+     - Adalah library untuk menghapus script css yang tidak terpakai sehingga file css semakin lebih kecil lagi
+   - ImageMinimizerWebpackPlugin
+     - Adalah sebuah plugin untuk melakukan sebuah optimasi atau kompresi ke semua gambar
+   
+2. Cara Installasi:
+   - npm install css-minimizer-webpack-plugin --save-dev
+     - Untuk menginstall Css Minimizer Bawaan Webpack
+   - npm i purgecss-webpack-plugin -D
+     - Untuk menginstall Css Minimizer Versi Purgecss Bawaan Webpack
+   - npm install image-minimizer-webpack-plugin @squoosh/lib --save-dev
+     - Untuk menginstall library squoosh
